@@ -1,0 +1,1 @@
+PHPFPM %{USER:ident} %{USER:auth}  %{HTTPDATE:timestamp} "%{WORD:verb} %{URIPATHPARAM:request}" %{NUMBER:response} %{NUMBER:responsetimems:float} (?:%{NUMBER:bytes:float}|-) (?:%{NUMBER:cpupercent:float}|-)\%
